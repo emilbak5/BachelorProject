@@ -46,8 +46,8 @@ class perceptronSystem:
             self.motor_speed_right = 30
         print("Left motor: ", self.motor_speed_left, " Right motor: ", self.motor_speed_right)
         #Outcomment to test without motors running
-        #self.motor_speed_left = 0 
-        #self.motor_speed_right = 0 
+        self.motor_speed_left = 0 
+        self.motor_speed_right = 0 
         return [self.motor_speed_left, self.motor_speed_right]
         
 
